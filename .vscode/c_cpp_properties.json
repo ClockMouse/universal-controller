@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/include/*",
+                "${workspaceFolder}/libraries/*",
+                "/usr/lib/avr/include/",
+                "/usr/include"
+            ],
+            "defines": ["USB_CAN_BE_DEVICE"],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

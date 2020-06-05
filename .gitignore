@@ -50,3 +50,20 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+###############
+
+# Archives
+*.zip
+
+# Artifacts
+*.bin
+*.eep
+*.lss
+*.sym
+
+# Libraries
+libraries/**
+
+# PDFs
+*.pdf
